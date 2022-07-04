@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		6BDC02C12871253700EF2FF9 /* swift_chatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC02C02871253700EF2FF9 /* swift_chatApp.swift */; };
-		6BDC02C32871253700EF2FF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC02C22871253700EF2FF9 /* ContentView.swift */; };
+		6BDC02C32871253700EF2FF9 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC02C22871253700EF2FF9 /* RootView.swift */; };
 		6BDC02C52871253700EF2FF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC02C42871253700EF2FF9 /* Assets.xcassets */; };
 		6BDC02C82871253700EF2FF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BDC02C72871253700EF2FF9 /* Preview Assets.xcassets */; };
 		6BDC02DB28712CD700EF2FF9 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC02DA28712CD700EF2FF9 /* Fonts.swift */; };
+		6BDC02DE28734D3200EF2FF9 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC02DD28734D3200EF2FF9 /* CustomTabBar.swift */; };
+		6BDC02E22873640600EF2FF9 /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDC02E12873640600EF2FF9 /* TabBarButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6BDC02BD2871253700EF2FF9 /* swift-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BDC02C02871253700EF2FF9 /* swift_chatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_chatApp.swift; sourceTree = "<group>"; };
-		6BDC02C22871253700EF2FF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6BDC02C22871253700EF2FF9 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		6BDC02C42871253700EF2FF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BDC02C72871253700EF2FF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BDC02D428712A5100EF2FF9 /* LexendDeca-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Regular.ttf"; sourceTree = "<group>"; };
@@ -25,6 +27,8 @@
 		6BDC02D628712A5100EF2FF9 /* LexendDeca-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LexendDeca-Bold.ttf"; sourceTree = "<group>"; };
 		6BDC02D728712ABA00EF2FF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		6BDC02DA28712CD700EF2FF9 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		6BDC02DD28734D3200EF2FF9 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		6BDC02E12873640600EF2FF9 /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,8 @@
 		6BDC02CE287125E600EF2FF9 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6BDC02C22871253700EF2FF9 /* ContentView.swift */,
+				6BDC02DC28734D0200EF2FF9 /* Custom Tab Bar */,
+				6BDC02C22871253700EF2FF9 /* RootView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,6 +129,15 @@
 				6BDC02D528712A5100EF2FF9 /* LexendDeca-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6BDC02DC28734D0200EF2FF9 /* Custom Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				6BDC02DD28734D3200EF2FF9 /* CustomTabBar.swift */,
+				6BDC02E12873640600EF2FF9 /* TabBarButton.swift */,
+			);
+			path = "Custom Tab Bar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +210,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BDC02C32871253700EF2FF9 /* ContentView.swift in Sources */,
+				6BDC02DE28734D3200EF2FF9 /* CustomTabBar.swift in Sources */,
+				6BDC02C32871253700EF2FF9 /* RootView.swift in Sources */,
 				6BDC02DB28712CD700EF2FF9 /* Fonts.swift in Sources */,
+				6BDC02E22873640600EF2FF9 /* TabBarButton.swift in Sources */,
 				6BDC02C12871253700EF2FF9 /* swift_chatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
